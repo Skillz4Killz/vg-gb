@@ -25,3 +25,15 @@
 ## Español
 
 * [Introducción](español/introducción.md)
+* [Centros De Datos](español/centrosDeDatos.md)
+* [Authorization](español/authorization.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [](español/.md)
+* [Errores](español/errores.md)
