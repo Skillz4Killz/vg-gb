@@ -95,6 +95,7 @@ query = {
 }
 r = requests.get(url, headers=header, params=query)
 ```
+
 {% sample lang="ruby" %}
 ```ruby
 ```
