@@ -1,4 +1,4 @@
-+# Titulos 
+# Titulos 
  
 Todos los endpoints requieren el siguiente encabezado `X-TITLE-ID` en orden para nosotros responder el pedido. 
 

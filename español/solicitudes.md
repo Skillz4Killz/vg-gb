@@ -14,7 +14,9 @@ El servidor responderá con una cabecera `Content-Type` que imita el formato sol
 
 El Servicio de Datos de Juego de Vainglory actualmente soporta las siguientes regiones:
 
+{% common %}
 > Para especificar las regiones, utiliza este código:
+
 {% sample lang="shell" %}
 ```shell
 "...gamelockerapp.com/shards/<region>/..."
