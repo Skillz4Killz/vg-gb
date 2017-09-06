@@ -6,7 +6,7 @@ The telemetry provides us insights into the match. It gives us details of variou
 
 > And a map of the Halcyon Fold [here!](https://cdn.discordapp.com/attachments/272249149473161216/284388441674874880/vainglory-map.png)
 
-
+ {% method %}
 ## To get Telemetry data
 
 You start by pulling a list of matches using the matches endopoint.
@@ -14,23 +14,29 @@ You start by pulling a list of matches using the matches endopoint.
 The HTTP Request to get matches is
 `GET https://api.dc01.gamelockerapp.com/shards/na/matches`
 
+{% sample lang="shell" %}
 ```shell
 curl "https://api.dc01.gamelockerapp.com/shards/na/matches" \
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
-
+{% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
+{% sample lang="python" %}
 ```python
 ```
+{% sample lang="ruby" %}
 ```ruby
 ```
+{% sample lang="js" %}
 ```javascript
 ```
+{% sample lang="go" %}
 ```go
 ```
+{% common %}
 > The above command returns JSON structured like this:
 
 ```json
@@ -112,22 +118,28 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/matches" \
 
 > you can download the data with following commands. Please note that you **do not** need API Key to get this data.
 
+{% sample lang="shell" %}
 ```shell
 curl "https://gl-prod-us-east-1.s3.amazonaws.com/assets/semc-vainglory/na/2017/03/17/00/43/b900c179-0aaa-11e7-bb12-0242ac110005-telemetry.json" \
   -H "Accept: application/vnd.api+json"
 ```
-
+{% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
+{% sample lang="python" %}
 ```python
 ```
+{% sample lang="ruby" %}
 ```ruby
 ```
+{% sample lang="js" %}
 ```javascript
 ```
+{% sample lang="go" %}
 ```go
 ```
+{% common %}
 > this request will return you a response as follows:
 
 
@@ -146,6 +158,7 @@ curl "https://gl-prod-us-east-1.s3.amazonaws.com/assets/semc-vainglory/na/2017/0
      }
    }
 ```
+{% endmethod %}
 
 ## Event Data Dictionary
 Telemetry data is classified into several events of interest. Following is a list of every event type with an example.
