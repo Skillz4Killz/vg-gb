@@ -1,6 +1,6 @@
 | Language | Link | Translators |
 | :---: | :---: | :---: |
-| English | \#introduction |  Original |
+| English | [introduction](#introduction) |  Original |
 | Spanish |  |  |
 | French |  |  |
 | Chinese |  |  |
