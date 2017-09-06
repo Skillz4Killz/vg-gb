@@ -12,8 +12,9 @@ requested by the Client.
 
 ## Shards
 {% method %}
-{% sample lang="shell" %}
+{% common %}
 > To specify the regional shard, use this code:
+{% sample lang="shell" %}
 
 ```shell
 "...gamelockerapp.com/shards/<region>/..."
