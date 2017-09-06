@@ -11,12 +11,12 @@ This endpoint retrieves a specific player.
 
 * Player renames do not trigger a change on this endpoint. A minimum of 1 match after the rename is required to view the change.
 
-```
-Changes Coming! - Player resources are not fully defined at this point, but are
+
+**Changes Coming!** - Player resources are not fully defined at this point, but are
 included so that consumers can get basic info (name, etc.)  This object will have
 additional data added over the next few months, and may change slightly as data
 moves from the `attributes.stats` object to the main `attributes` object.
-```
+
 
 {% sample lang="shell" %}
 ```shell
