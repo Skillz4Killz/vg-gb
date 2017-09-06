@@ -1,7 +1,7 @@
 | Language | Translators |
 | :---: | :---: |
 | [English](english/introduction.md) | Original |
-| Spanish |  |
+| [Español](español/introducción.md) | EZL Translating Team |
 | French |  |
 | Chinese |  |
 | German |  |
