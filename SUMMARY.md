@@ -35,8 +35,8 @@
 * [Jugadores](español/jugadores.md)
 * [Muestras](español/muestras.md)
 * [](español/.md)
-* [](español/.md)
-* [Enlaces (Disponibles pronto!)](español/enlaces.md)
-* [](español/.md)
+* [Equipos (Disponibles Pronto!)](español/equipos.md)
+* [Enlaces (Disponibles Pronto!)](español/enlaces.md)
+* [SDK De La Communidad](español/sdks.md)
 * [Errores](español/errores.md)
 
