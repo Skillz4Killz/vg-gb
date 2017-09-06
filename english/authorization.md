@@ -1,5 +1,7 @@
+{% method %}
 # Authorization
 
+{% sample lang="shell" %}
 > To specify the Headers, use this code:
 
 ```shell
@@ -8,7 +10,7 @@
   -H "Authorization: <api-key>"
   -H "Accept: application/vnd.api+json"
 ```
-
+{% sample lang="java" %}
 ```java
 import java.io.*;
 import java.net.*;
@@ -22,6 +24,7 @@ conn.setRequestProperty("Accept", "application/vnd.api+json");
 conn.getInputStream()
 ```
 
+{% sample lang="python" %}
 ```python
 import requests
 
@@ -34,13 +37,13 @@ header = {
 
 r = requests.get(url, headers=header)
 ```
-
 ```ruby
 ```
 
 ```javascript
 ```
 
+{% sample lang="go" %}
 ```go
 import "net/http"
 
@@ -61,3 +64,5 @@ There's no need to create JWTs manually, they will be created for you when you r
 
 In some cases an `X-API-KEY` will give you more access to information, and in all
  cases it means that you are operating under a per-token rate limit.
+
+ {% endmethod %}
