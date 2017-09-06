@@ -184,38 +184,39 @@ Remember — a happy match is an authenticated match!
 {% method %}
 
 ## Get a single Match
-{% sample lang="shell" %}
 
+{% sample lang="shell" %}
 ```shell
 curl "https://api.dc01.gamelockerapp.com/shards/na/matches/<matchID>" \
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
-{% sample lang="java" %}
 
+{% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support URL parameters
 ```
-{% sample lang="python" %}
 
+{% sample lang="python" %}
 ```python
 
 ```
-{% sample lang="ruby" %}
 
+{% sample lang="ruby" %}
 ```ruby
 
 ```
-{% sample lang="js" %}
 
+{% sample lang="js" %}
 ```javascript
 
 ```
-{% sample lang="go" %}
 
+{% sample lang="go" %}
 ```go
 
 ```
+
 {% common %}
 
 > The above command returns JSON structured like this:
