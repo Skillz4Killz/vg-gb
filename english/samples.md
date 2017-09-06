@@ -6,32 +6,35 @@ This endpoint retrieves a collection of randomly selected matches.
 
 {% method %}
 ## Get a collection of Samples
+
 {% sample lang="shell" %}
 ```shell
 curl "https://api.dc01.gamelockerapp.com/shards/na/samples" \
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
+
 {% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
-{% sample lang="python" %}
 
+{% sample lang="python" %}
 ```python
 ```
-{% sample lang="ruby" %}
 
+{% sample lang="ruby" %}
 ```ruby
 ```
-{% sample lang="js" %}
 
+{% sample lang="js" %}
 ```javascript
 ```
-{% sample lang="go" %}
 
+{% sample lang="go" %}
 ```go
 ```
+
 {% common %}
 > The above command returns JSON structured like this:
 
