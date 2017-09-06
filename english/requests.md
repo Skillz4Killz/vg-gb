@@ -212,7 +212,14 @@ curl -g "https://api.dc01.gamelockerapp.com/status?callback=foo"
 You can send a ?callback parameter to any GET call to have the results wrapped in a JSON function. This is typically used when browsers want to embed content in web pages by getting around cross domain issues. The response includes the same data output as the regular API, plus the relevant HTTP Header information.
 
 
+
 ## Cross Origin Resource Sharing
+
+The API supports Cross Origin Resource Sharing (CORS) for AJAX requests from any origin.
+You can read the CORS W3C Recommendation, or this intro from the HTML 5 Security Guide.
+
+Here's a sample request sent from a browser hitting http://example.com:
+
 {% method %}
 {% sample lang="shell" %}
 ```shell
@@ -222,11 +229,9 @@ curl -i https://api.dc01.gamelockerapp.com/status -H "Origin: http://example.com
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: Content-Length
 ```
-{% endmethod %}
-
-{% method %}
-
+{% common %}
 This is what the CORS preflight request looks like:
+
 {% sample lang="shell" %}
 ```shell
 curl -i https://api.dc01.gamelockerapp.com/status -H "Origin: http://example.com" -X OPTIONS
@@ -239,7 +244,3 @@ curl -i https://api.dc01.gamelockerapp.com/status -H "Origin: http://example.com
 ```
 {% endmethod %}
 
-The API supports Cross Origin Resource Sharing (CORS) for AJAX requests from any origin.
-You can read the CORS W3C Recommendation, or this intro from the HTML 5 Security Guide.
-
-Here's a sample request sent from a browser hitting http://example.com:
