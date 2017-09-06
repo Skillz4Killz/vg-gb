@@ -1,4 +1,4 @@
-{% method %}
+
 # Authorization
 
 We require a JSON Web Token ([JWT](https://jwt.io/)) be sent along with your request via the `Authorization` header.  
@@ -10,6 +10,9 @@ JWTs are passed as bearer tokens in the Authorization header, and look like the 
 There's no need to create JWTs manually, they will be created for you when you register for the API - [Register Here!](https://developer.vainglorygame.com/users/sign_in)
 
 In some cases an `X-API-KEY` will give you more access to information, and in all cases it means that you are operating under a per-token rate limit.
+
+{% method %}
+
 
 {% sample lang="shell" %}
 > To specify the Headers, use this code:
