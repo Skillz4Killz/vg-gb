@@ -67,8 +67,11 @@ anonymous Players, registered Players, or bots. In the case where the Participan
 is a registered Player, the Participant will have a single Player relationship.
 Participant objects are only meaningful within the context of a Match and are
 not exposed as a standalone resource.
+
 {% method %}
+
 ## Get a collection of Matches
+
 This endpoint retrieves data from matches. Bulk scraping matches is prohibited.
 
 
@@ -78,10 +81,12 @@ curl -g "https://api.dc01.gamelockerapp.com/shards/na/matches?sort=createdAt&pag
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
+
 {% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
+
 {% sample lang="python" %}
 ```python
 import requests
@@ -101,6 +106,7 @@ r = requests.get(url, headers=header, params=query)
 
 {% sample lang="ruby" %}
 ```ruby
+
 ```
 
 {% sample lang="js" %}
