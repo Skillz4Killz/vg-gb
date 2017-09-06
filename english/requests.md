@@ -159,6 +159,7 @@ Important - Currently the server will not allow responses with over 50 primary d
 ```go
 ".../matches?sort=createdAt"
 ```
+{% common %}
 >The example below will return the newest articles first.
 {% sample lang="shell" %}
 
