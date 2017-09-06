@@ -9,9 +9,10 @@ since it is the default for many popular client libraries.
 The Server will respond with a `Content-Type` header that mirrors the format
 requested by the Client.
 
+{% method %}
 
 ## Shards
-{% method %}
+
 {% common %}
 > To specify the regional shard, use this code:
 {% sample lang="shell" %}
@@ -211,6 +212,7 @@ curl -g "https://api.dc01.gamelockerapp.com/status?callback=foo"
 You can send a ?callback parameter to any GET call to have the results wrapped in a JSON function. This is typically used when browsers want to embed content in web pages by getting around cross domain issues. The response includes the same data output as the regular API, plus the relevant HTTP Header information.
 
 
+{% method %}
 
 ## Cross Origin Resource Sharing
 
@@ -219,7 +221,7 @@ You can read the CORS W3C Recommendation, or this intro from the HTML 5 Security
 
 Here's a sample request sent from a browser hitting http://example.com:
 
-{% method %}
+
 {% sample lang="shell" %}
 ```shell
 curl -i https://api.dc01.gamelockerapp.com/status -H "Origin: http://example.com"
