@@ -67,17 +67,19 @@ anonymous Players, registered Players, or bots. In the case where the Participan
 is a registered Player, the Participant will have a single Player relationship.
 Participant objects are only meaningful within the context of a Match and are
 not exposed as a standalone resource.
-
+{% method %}
 ## Get a collection of Matches
-
+{% sample lang="shell" %}
 ```shell
 curl -g "https://api.dc01.gamelockerapp.com/shards/na/matches?sort=createdAt&page[limit]=3&filter[createdAt-start]=2017-02-27T13:25:30Z&filter[playerNames]=<playerName>" \
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
+{% sample lang="java" %}
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
+{% sample lang="python" %}
 ```python
 import requests
 
@@ -97,10 +99,13 @@ query = {
 
 r = requests.get(url, headers=header, params=query)
 ```
+{% sample lang="ruby" %}
 ```ruby
 ```
+{% sample lang="js" %}
 ```javascript
 ```
+{% sample lang="go" %}
 ```go
 q := req.URL.Query()
 q.Add("sort", "createdAt")
@@ -110,6 +115,7 @@ q.Add("page[limit]", "3")
 req.URL.RawQuery = q.Encode()
 res, _ := client.Do(req)
 ```
+{% common %}
 > The above command returns JSON structured like this:
 
 ```json
@@ -141,7 +147,7 @@ res, _ := client.Do(req)
   ]
 }
 ```
-
+{% endmethod %}
 This endpoint retrieves data from matches. Bulk scraping matches is prohibited.
 
 ### HTTP Request
@@ -165,25 +171,38 @@ filter[gameMode] | none | filter by gameMode Usage: filter[gameMode]=casual,rank
 <aside class="success">
 Remember — a happy match is an authenticated match!
 </aside>
+{% method %}
 
 ## Get a single Match
+{% sample lang="shell" %}
 
 ```shell
 curl "https://api.dc01.gamelockerapp.com/shards/na/matches/<matchID>" \
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 ```
+{% sample lang="java" %}
+
 ```java
 //There are a variety of Java HTTP libraries that support URL parameters
 ```
+{% sample lang="python" %}
+
 ```python
 ```
+{% sample lang="ruby" %}
+
 ```ruby
 ```
+{% sample lang="js" %}
+
 ```javascript
 ```
+{% sample lang="go" %}
+
 ```go
 ```
+{% common %}
 
 > The above command returns JSON structured like this:
 
@@ -214,7 +233,7 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/matches/<matchID>" \
   }
 }
 ```
-
+{% endmethod %}
 This endpoint retrieves a specific match.
 
 ### HTTP Request
