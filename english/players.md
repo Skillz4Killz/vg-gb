@@ -2,7 +2,7 @@
 
 Player objects contain aggregated lifetime information about each Player.  At this time Players are fairly sparse, but there are plans to add much richer data as it becomes available.
 
-{% method %}
+
 ## Get a single Player
 
 This endpoint retrieves a specific player.
@@ -18,6 +18,7 @@ additional data added over the next few months, and may change slightly as data
 moves from the `attributes.stats` object to the main `attributes` object.
 </aside>
 
+{% method %}
 {% sample lang="shell" %}
 ```shell
 curl "https://api.dc01.gamelockerapp.com/shards/na/players/<ID>" \
@@ -25,26 +26,26 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/players/<ID>" \
   -H "Accept: application/vnd.api+json"
 ```
 {% sample lang="java" %}
-
 ```java
 //There are a variety of Java HTTP libraries that support query-parameters.
 ```
 {% sample lang="python" %}
-
 ```python
+
 ```
 {% sample lang="ruby" %}
-
 ```ruby
+
 ```
 {% sample lang="js" %}
-
 ```javascript
+
 ```
 {% sample lang="go" %}
-
 ```go
+
 ```
+
 {% common %}
 > The above command returns JSON structured like this:
 
