@@ -181,9 +181,10 @@ filter[gameMode] | none | filter by gameMode Usage: filter[gameMode]=casual,rank
 <aside class="success">
 Remember — a happy match is an authenticated match!
 </aside>
-{% method %}
 
+{% method %}
 ## Get a single Match
+This endpoint retrieves a specific match.
 
 {% sample lang="shell" %}
 ```shell
@@ -249,7 +250,7 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/matches/<matchID>" \
 }
 ```
 {% endmethod %}
-This endpoint retrieves a specific match.
+
 
 ### HTTP Request
 
