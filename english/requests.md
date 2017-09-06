@@ -192,17 +192,15 @@ Important - Currently the server will not allow responses with over 50 primary d
 ```
 {% endmethod %}
 The default sort order is always ascending. Ascending corresponds to the
-standard order of numbers and letters, i.e. A to Z, 0 to 9).  For dates and times,
-ascending means that earlier values precede later ones e.g. 1/1/2000 will sort
-ahead of 1/1/2001.
+standard order of numbers and letters, i.e. A to Z, 0 to 9).  For dates and times, ascending means that earlier values precede later ones e.g. 1/1/2000 will sort ahead of 1/1/2001.
 
-All resource collections have a default sort order.  In addition, some resources
-provide the ability to sort according to one or more criteria ("sort fields").
+All resource collections have a default sort order.  In addition, some resources provide the ability to sort according to one or more criteria ("sort fields").
 
 If sort fields are is prefixed with a minus, the order will be changed to descending.
 
-## JSON-P Callbacks
 {% method %}
+## JSON-P Callbacks
+
 {% sample lang="shell" %}
 
 ```shell
