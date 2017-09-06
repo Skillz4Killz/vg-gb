@@ -21,18 +21,22 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/samples" \
 
 {% sample lang="python" %}
 ```python
+
 ```
 
 {% sample lang="ruby" %}
 ```ruby
+
 ```
 
 {% sample lang="js" %}
 ```javascript
+
 ```
 
 {% sample lang="go" %}
 ```go
+
 ```
 
 {% common %}
