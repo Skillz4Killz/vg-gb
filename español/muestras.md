@@ -56,6 +56,7 @@ curl "https://api.dc01.gamelockerapp.com/shards/na/samples" \
       }
     }
 ```
+{% endmethod %}
 
 ### Petición HTTP
 
