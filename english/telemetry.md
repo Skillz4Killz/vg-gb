@@ -177,11 +177,11 @@ Where the first value represents the x coordinate, second value represents the z
 
 The following is a list of some of the most important positions on the map:
 
-MAP LANDMARK COORDINATES
+##### MAP LANDMARK COORDINATES
 
-==LEFT SIDE==
+**==LEFT SIDE==**
 
-Base Shop (-88.50, 0.89, 2.00)
+```Base Shop (-88.50, 0.89, 2.00)
 
 Crystal (-76.12, 0.00, 19.90)
 
@@ -202,9 +202,10 @@ Mid Healer (-21.95, 0.00, 24.00)
 
 Fronts 1 (-14.40, 0.00, 37.67)
 Fronts 2 (-12.51, 0.00, 37.67)
+```
 
-==RIGHT SIDE==
-
+**==RIGHT SIDE==**
+```
 Base Shop (88.57, 1.80, 0.51)
 
 Crystal (76.12, 0.10, 19.90)
@@ -226,12 +227,14 @@ Mid Healer (22.50, 0.00, 23.50)
 
 Fronts 1 (14.85, 0.00, 38.12)
 Fronts 2 (12.89. 0.00, 36.74)
-
-==Miscellaneous==
+```
+**==Miscellaneous==**
+```
 Gold Miner / Kraken (0.00, 0.00. 23.60)
 Elder Treant / Jungle Shop (0.20, 0.00, 42,00)
 Compass Center (.092, 0.01, 3.33)
 Map Center (0.00, 0.00, 0.00)
+```
 
 ### Pre-Match Events
 The following events will only take place pre-match, such as in hero selection.
@@ -249,7 +252,7 @@ Takes place when a hero has been banned, this event will only take place in draf
 	}
 
 #### HeroSelect
-Takes place when a hero has been selected by a player, ```Handle``` is the in-game name of the player.
+Takes place when a hero has been selected by a player, `Handle` is the in-game name of the player.
 
 	{
 	    "time": "2017-06-26T04:58:29+0000",
