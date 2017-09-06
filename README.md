@@ -1,6 +1,6 @@
-| Language | Link | Translators |
-| :---: | :---: | :---: |
-| English | [introduction](english/introduction.md) |  Original |
+| Language | Translators |
+| :---: | :---: |
+| [English](english/introduction.md) | Original |
 | Spanish |  |  |
 | French |  |  |
 | Chinese |  |  |
