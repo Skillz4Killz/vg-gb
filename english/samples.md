@@ -2,10 +2,10 @@
 
 The samples endpoint provides an easy way to access hourly batches of random match data to aggregate stats.
 
-This endpoint retrieves a collection of randomly selected matches.
-
 {% method %}
 ## Get a collection of Samples
+
+This endpoint retrieves a collection of randomly selected matches.
 
 {% sample lang="shell" %}
 ```shell
