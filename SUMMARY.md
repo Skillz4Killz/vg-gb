@@ -11,14 +11,14 @@
 * [Authorization](english/authorization.md)
 * [Titles](english/title.md)
 * [Making Requests](english/requests.md)
-* Receiving Responses
-* Matches
-* Match Data Summary
-* Players
-* Samples
-* Telemetry
-* Teams \(Coming Soon\)
-* Links \(Coming Soon\)
-* Community SDK's
-* Errors
+* [Receiving Responses](english/responses.md)
+* [Matches](english/matches.md)
+* [Match Data Summary](english/matchesJSON.md)
+* [Players](english/players.md)
+* [Samples](english/samples.md)
+* [Telemetry](english/telemetry.md)
+* [Teams \(Coming Soon\)](english/teams.md)
+* [Links \(Coming Soon\)](english/links.md)
+* [Community SDK's](english/sdks.md)
+* [Errors](english/errors.md)
 
